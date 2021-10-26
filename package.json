@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "jodie",
-  "description": "Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.",
+  "name": "huntsville-rugby-club",
+  "description": "Website built for Huntsville Rugby Club",
   "version": "0.1.5",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "thisisdylandev <dylan@ctrlaltdylan.com>",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-jodie",
   "scripts": {
@@ -21,8 +21,11 @@
     "gatsby-omni-font-loader": "^1.3.1",
     "gatsby-plugin-gatsby-cloud": "^4.0.0",
     "gatsby-plugin-manifest": "^4.0.0",
+    "gatsby-plugin-sharp": "^4.0.0",
     "gatsby-plugin-sitemap": "^5.0.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
+    "gatsby-remark-images": "^6.0.0",
+    "gatsby-transformer-remark": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

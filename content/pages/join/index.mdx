@@ -1,0 +1,62 @@
+---
+title: "Join"
+slug: "/join"
+custom: true
+cover: "./join-cover.jpg"
+---
+
+<div style={{ margin: `0 auto`, maxWidth: `70ch`, padding: `2rem` }}>
+
+<h1 data-testid="page-title">Join The Team!</h1>
+
+</div>
+
+![Men's Team](./mens-team-join.jpeg)
+
+<div style={{ margin: `0 auto`, maxWidth: `70ch` }}>
+
+Interested in joining the Huntsville Rugby Club? Fill out the form below and somebody will be in touch with you!
+
+Or, you can join us at practice every Tuesday and Thursday from 6pm to 8pm at the Rick Cooper Memorial Park in Huntsville, AL.
+
+<div style={{ display: `flex`,
+    flexWrap: `wrap`,
+    marginTop: `3rem`, 
+    textDecoration: `none`,
+    border: `1px solid #eaeaea`,
+    padding: `1rem`,
+    borderRadius: `10px`}}>
+
+  <form
+    name="sponsor"
+    method="post"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    style={{ minWidth: `100%` }}
+  >
+    <input type="hidden" name="bot-field" />
+    <div>
+      Name: <input type="text" name="name" style={{ minWidth: `100%` }}/>
+    </div>
+    <div>
+      <label>
+        Email: <input type="email" name="email" style={{ minWidth: `100%` }}/>
+      </label>
+    </div>
+    <div>
+      <label>
+        Phone Number: <input type="tel" name="phone" style={{ minWidth: `100%` }}/>
+      </label>
+    </div>
+    <div>
+      <label>
+        Message: <textarea name="message" style={{ minWidth: `100%` }}></textarea>
+      </label>
+    </div>
+    <div>
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</div>
+
+</div>
